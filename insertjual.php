@@ -1,4 +1,5 @@
 <?php
+//coba lagi
 require 'function.php';
 ?>
 
