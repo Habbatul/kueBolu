@@ -1,4 +1,4 @@
-//jangan lupa gunakan AJAX
+//jangan lupa gunakan AJAX ketika memanggil fungsi ini
 var harga = 0;
 var jumlah = 0;
 var total = 0;
