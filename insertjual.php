@@ -148,25 +148,9 @@ require 'function.php';
                     <button style="font-size: 25px" type="submit" name="insertlap">Tambah</button>
 </form>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript">
-    var harga = 0;
-    var jumlah = 0;
-    var total = 0;
-    $(document).ready(function() {
-        $("#jumlah, #kue").on('change input', function() {
-            var harga = $('#kue').val().split('_')||0;
-            var jumlah = $("#jumlah").val();
-
-            var total = parseInt(harga) * parseInt(jumlah);
-            $("#total_harga").val(total);
-        });
-    });
-
-</script>    
+<script type="text/javascript" src="totalHarga.js"></script>    
 </table>
 </div></td></tr></table>
-
-
 
 
 <div class="footer">
