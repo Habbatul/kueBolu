@@ -103,7 +103,7 @@ require 'function.php';
 </div>
 <table style="padding-right: 15px;padding-left: 30px;padding-top: 10px;"><tr><td>
 <div class="isi">   
-              <form action="insertJual.php">
+              <form action="insertjual.php">
                 <input id="menu" type="submit" id="submit" value="Tambahkan Laporan Penjualan">
               </form><h2  style="color:gray;padding-top: 10px;display: inline;">Laporan Penjualan</h2>
      <table class="tabel">
