@@ -1,5 +1,5 @@
 <?php
-require 'fungsi.php';
+require 'function.php';
 ?>
 
 <html>
