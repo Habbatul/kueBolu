@@ -64,8 +64,8 @@ if (isset($_POST['updatekue'])) {
  if(empty($_FILES['gambar']['name'])){
  	$updatek = mysqli_query($conn, "update produk set nama_kue='$nama_kue', jenis_kue='$jenis_kue' , harga_kue='$harga_kue', stok='$stok' where produk.id_kue='$id_kue' ");}
  else{
- 	$gambar = $_FILES['gambar']['name'];
-	$tmp_file = $_FILES['gambar']['tmp_name'];
+ 	$gambar = $_FILES['gambar']['name'];  //nama gambar
+	$tmp_file = $_FILES['gambar']['tmp_name']; //temporary default xampp gambar diupload
     $path = "gambar/";
     move_uploaded_file($tmp_file, $path.$gambar);
  	$updatek = mysqli_query($conn,"update produk set gambar='$gambar', nama_kue='$nama_kue', jenis_kue='$jenis_kue', harga_kue='$harga_kue', stok='$stok' where produk.id_kue='$id_kue' ");
