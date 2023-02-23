@@ -1,3 +1,4 @@
+//jangan lupa gunakan AJAX
 var harga = 0;
 var jumlah = 0;
 var total = 0;
